@@ -25,6 +25,6 @@ import { MovieComponent } from './movie/movie.component';
   ],
   providers: [],
   bootstrap: [AppComponent],
-  entryComponents: [MenuComponent]
+  // entryComponents: [MenuComponent]
 })
 export class AppModule { }
