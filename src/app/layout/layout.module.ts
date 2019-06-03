@@ -8,7 +8,7 @@ import { LayoutRoutingModule } from './layout.routing.module';
 import { MenuComponent } from '../menu/menu.component';
 
 
-const APP_COMPONENT = [MenuComponent, WeatherComponent, MovieComponent, CurrencyComponent];
+const APP_COMPONENT = [WeatherComponent, MovieComponent, CurrencyComponent];
 
 @NgModule({
   declarations: [LayoutComponent, APP_COMPONENT],

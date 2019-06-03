@@ -13,10 +13,10 @@ import { MovieComponent } from './movie/movie.component';
 @NgModule({
   declarations: [
     AppComponent,
-    // MenuComponent,
-    // WeatherComponent,
-    // CurrencyComponent,
-    // MovieComponent
+    MenuComponent,
+    WeatherComponent,
+    CurrencyComponent,
+    MovieComponent
   ],
   imports: [
     BrowserModule,
@@ -25,5 +25,6 @@ import { MovieComponent } from './movie/movie.component';
   ],
   providers: [],
   bootstrap: [AppComponent],
+  entryComponents: [MenuComponent]
 })
 export class AppModule { }

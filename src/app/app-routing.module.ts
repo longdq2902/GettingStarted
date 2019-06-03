@@ -5,19 +5,19 @@ import { WeatherComponent } from './weather/weather.component';
 import { MovieComponent } from './movie/movie.component';
 import { AppComponent } from './app.component';
 
-// const routes: Routes = [
-//   { path: '', redirectTo: '/weather', pathMatch: 'full' },
-//   { path: 'weather', component: WeatherComponent },
-//   { path: 'movie', component: MovieComponent },
-//   { path: 'currency', component: CurrencyComponent }
-// ];
-
 const routes: Routes = [
-  {
-    path: '',
-    loadChildren: './layout/layout.module#LayoutModule'
-  }
+  { path: '', redirectTo: '/weather', pathMatch: 'full' },
+  { path: 'weather', component: WeatherComponent },
+  { path: 'movie', component: MovieComponent },
+  { path: 'currency', component: CurrencyComponent }
 ];
+
+// const routes: Routes = [
+//   {
+//     path: '',
+//     loadChildren: './layout/layout.module#LayoutModule'
+//   }
+// ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
